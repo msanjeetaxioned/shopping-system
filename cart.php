@@ -18,7 +18,12 @@
 <body>
     <?php 
     require('utility/db-connection.php');
-    require('utility/cart-items.php'); 
+    require('utility/cart-items.php');
+    if(isset($_GET["logout"])) {
+        setcookie("email", "", time() - 300, "/", "", 0);
+        setcookie("cart", "", time() - 300, "/", "", 0);
+        header('Location: http://localhost/php/shopping-system/login.php');
+    }
     ?>
     <header>
         <div class="wrapper">

@@ -27,6 +27,8 @@ form { margin-bottom: 30px; }
     align-items: center;
 }
 
+.cart-item:last-child { margin-bottom: 0; }
+
 .cart-item > *:first-child {
     flex-basis: 30%;
 }
