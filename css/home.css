@@ -28,7 +28,6 @@ header > .wrapper { justify-content: space-between; }
 .cart { margin-right: 20px; }
 
 .cart > a { 
-    margin-right: 5px;
     display: inline-block;
     font-size: 0; 
 }

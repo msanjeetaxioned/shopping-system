@@ -43,7 +43,6 @@
             <div class="control-buttons">
                 <div class="cart">
                     <a href="http://localhost/php/shopping-system/home.php?cart=true" title="View Cart">Cart</a>
-                    <span>0</span>
                 </div>
                 <a href="http://localhost/php/shopping-system/home.php?logout=true" title="Logout">Logout</a>
             </div>
