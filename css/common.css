@@ -21,7 +21,7 @@ header {
 
 header > .wrapper { display: flex; }
 
-header a {
+header h1 > a {
     padding: 15px 0;
     display: inline-block;
     color: #04AA6D;
@@ -29,7 +29,7 @@ header a {
     font-weight: bold;
 }
 
-header a:hover { text-decoration: underline; }
+header h1 > a:hover { text-decoration: underline; }
 form > * { margin-bottom: 15px; }
 form > *:last-child { margin-bottom: 0; }
 
